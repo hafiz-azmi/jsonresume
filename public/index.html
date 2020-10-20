@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hafiz Azmi</title>
+    <meta name="description" content="Hafiz Azmi comes from Kuala Terengganu, Terengganu. He currenly lives in Seri Kembangan, Selangor." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+p:not(:first-child) {
+  margin-top: 1em;
+}
+
+p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+header {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+header > *,
+section {
+  grid-column: main;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  header > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header>
+          <h1>Hafiz Azmi</h1>
+          <h2>Software Engineer</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h6>Email</h6>
+              <a href="mailto:hafizuddintgazmi@gmail.com">hafizuddintgazmi@gmail.com</a>
+            </div>
+            <div>
+              <h6>Phone</h6>
+              (+60) 14-511 5420
+            </div>
+            <div>
+              <h6>Website</h6>
+              <a href="http://hafiz-azmi.github.io">http://hafiz-azmi.github.io</a>
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <div>
+            <p>Hafiz Azmi comes from Kuala Terengganu, Terengganu. He currenly lives in Seri Kembangan, Selangor.</p>
+          </div>
+        </section>
+        <section id="profiles">
+          <h3>Profiles</h3>
+          <div class="grid-list">
+              <div>
+                  <h6>Twitter</h6>
+                    <a href="https://twitter.com/Hafiz__Azmi">hafiz__azmi</a>
+              </div>
+              <div>
+                  <h6>Facebook</h6>
+                    <a href="https://www.facebook.com/hafizuddintgazmi">hafizuddintgazmi</a>
+              </div>
+              <div>
+                  <h6>Linkedin</h6>
+                    <a href="https://www.linkedin.com/in/hafiz-azmi/">hafiz-azmi</a>
+              </div>
+              <div>
+                  <h6>Github</h6>
+                    <a href="https://github.com/hafiz-azmi">hafiz-azmi</a>
+              </div>
+          </div>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <div class="spaced-list">
+                <h4>GATES IT Solutions Sdn Bhd</h4>
+                <span>
+                  <time datetime="2017-01-15">Jan 2017</time> –
+                  <time datetime="2017-04-28">Apr 2017</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>System Analyst Programmer</strong>
+                  <a href="https://www.gates.my/">https://www.gates.my/</a>
+              </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.</li>
+                    <li>consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim.</li>
+                </ul>
+            </article>
+            <article>
+              <div class="spaced-list">
+                <h4>Plisca (M) Sdn Bhd</h4>
+                <span>
+                  <time datetime="2017-05-01">May 2017</time> –
+                  <time datetime="2018-10-15">Oct 2018</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Programmer</strong>
+                  <a href="https://plisca.com.my/">https://plisca.com.my/</a>
+              </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.</li>
+                    <li>consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim.</li>
+                </ul>
+            </article>
+            <article>
+              <div class="spaced-list">
+                <h4>Petronas Research Sdn Bhd</h4>
+                <span>
+                  <time datetime="2018-10-16">Oct 2018</time> –
+                  <time datetime="2020-10-20">Oct 2020</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Programmer</strong>
+                  <a href="https://plisca.com.my/">https://plisca.com.my/</a>
+              </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.</li>
+                    <li>consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim.</li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <div class="spaced-list">
+                <h4>Universiti Tun Hussein Onn Malaysia (UTHM)</h4>
+                <span>
+                  <time datetime="2013-09-01">Sep 2013</time> –
+                  <time datetime="2016-01-14">Jan 2016</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Information Technology</strong>
+                  <a href="https://www.uthm.edu.my/">https://www.uthm.edu.my/</a>
+              </div>
+                <p>Bachelor</p>
+                <h5>Courses</h5>
+                <ul>
+                    <li>BIT10103 - Software Engineering</li>
+                    <li>BIT10203 - Introduction to Information Technology</li>
+                    <li>BIT10303 - Computer Programming</li>
+                    <li>BIT10403 - Introduction to Multimedia</li>
+                    <li>BIT10503 - Cyber Entrepreneurship</li>
+                    <li>BIT10703 - Data Structure and Algorithm</li>
+                    <li>BIT10803 - Information Technology Skills</li>
+                    <li>BIT11003 - Discrete Structure</li>
+                    <li>BIT11603 - Statistics</li>
+                    <li>BIT20103 - System Analysis and Design</li>
+                    <li>BIT20203 - Graphic Programming</li>
+                    <li>BIT20303 - Computer Architecture</li>
+                    <li>BIT20403 - Operating System</li>
+                    <li>BIT20502 - Creativity and Innovation</li>
+                    <li>BIT20603 - Object - Oriented Programming</li>
+                    <li>BIT20703 - Network and Data Communication</li>
+                    <li>BIT20803 - Database System</li>
+                    <li>BIT20903 - Artificial Intelligence</li>
+                    <li>BIT21002 - Computer, Ethics and Social</li>
+                    <li>BIT30303 - Decision Support System</li>
+                    <li>BIT30403 - Project Management</li>
+                    <li>BIT30503 - Enterprise Resource Planning</li>
+                    <li>BIT30803 - Management Information System</li>
+                    <li>BIT31003 - Information Technology Application</li>
+                    <li>BIT33403 - Project Research Methodology</li>
+                    <li>BIT33503 - Degree Project (Food Stall Evaluation System)</li>
+                    <li>BIT33603 - Data Mining</li>
+                    <li>BIT33803 - Java Programming</li>
+                    <li>BIT40112 - Industrial Training</li>
+                    <li>BPK10403 - Basic Accounting</li>
+                    <li>BPK20502 - Principles of Management</li>
+                    <li>BPK20802 - Entrepreneurship</li>
+                    <li>BPK30702 - Environmental and Occupational Safety</li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="stack">
+            <article>
+              <div class="spaced-list">
+                <h4>sisMPK</h4>
+                <span>
+                  <time datetime="2017-01-02">Jan 2017</time> –
+                  <time datetime="2017-04-28">Apr 2017</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                <span>
+                  <strong>Junior Programmer</strong>
+                    at <strong>Kuantan Municipal Council</strong>
+                </span>
+              </div>
+                <p>Maintaining and developing Harta Sewa module, covering all rental property for Kuantan Municipal Council.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Using PHP with in-house MVC framework</li>
+                    <li>Managed using SCRUM methodology</li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="awards">
+        <h3>Awards</h3>
+        <div class="stack">
+            <article>
+              <div class="spaced-list">
+                <h4>Second place in the EAGE Earth-Hack Hackaton</h4>
+                  <time datetime="2019-02-24">Feb 2019</time>
+              </div>
+              <div class="spaced-list">
+                  <div>
+                    Awarded by <strong>EAGE</strong>
+                  </div>
+              </div>
+                <p>The EAGE Earth-Hack Hackathon, a two and a half day event will be held in Kuala Lumpur on 22nd – 24th February 2019, where software developers, engineers and geoscientists will spend intensive hours to hack, test and experiment with the latest advancements in machine learning algorithms against subsurface data such as seismic, logs, cores, to solve data mining, geological interpretation, and quantitative reservoir characterization problems.</p>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h5>Web Development</h5>
+                <ul class="tag-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>PHP</li>
+                    <li>JQuery</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Data Science</h5>
+                <ul class="tag-list">
+                    <li>Python</li>
+                    <li>Pytorch</li>
+                    <li>Anaconda</li>
+                    <li>CUDA</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h6>English (Writing &amp; Speaking)</h6>
+              Excellent
+            </div>
+            <div>
+                <h6>Malay (Writing &amp; Speaking)</h6>
+              Excellent (Native)
+            </div>
+        </div>
+      </section>
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="grid-list">
+            <div>
+                <h5>Outdoor</h5>
+                <ul class="tag-list">
+                    <li>Hiking</li>
+                    <li>Running</li>
+                    <li>Cycling</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Automotive</h5>
+                <ul class="tag-list">
+                    <li>Car</li>
+                    <li>Motorcycle</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+  </body>
+</html>

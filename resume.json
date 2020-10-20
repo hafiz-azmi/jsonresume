@@ -1,0 +1,221 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hafiz Azmi",
+    "label": "Software Engineer",
+    "image": "https://avatars2.githubusercontent.com/u/22949330?s=460&u=0775095da5fe8c43aa6ff9191bdcdb515b39d412&v=4",
+    "email": "hafizuddintgazmi@gmail.com",
+    "phone": "(+60) 14-511 5420",
+    "url": "http://hafiz-azmi.github.io",
+    "summary": "Hafiz Azmi comes from Kuala Terengganu, Terengganu. He currenly lives in Seri Kembangan, Selangor.",
+    "location": {
+      "address": "Pangsapuri Orkid, Taman Bukit Serdang",
+      "postalCode": "43300",
+      "city": "Seri Kembangan",
+      "countryCode": "MY",
+      "region": "Selangor"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "hafiz__azmi",
+        "url": "https://twitter.com/Hafiz__Azmi"
+      },
+      {
+        "network": "Facebook",
+        "username": "hafizuddintgazmi",
+        "url": "https://www.facebook.com/hafizuddintgazmi"
+      },
+      {
+        "network": "Linkedin",
+        "username": "hafiz-azmi",
+        "url": "https://www.linkedin.com/in/hafiz-azmi/"
+      },
+      {
+        "network": "Github",
+        "username": "hafiz-azmi",
+        "url": "https://github.com/hafiz-azmi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "GATES IT Solutions Sdn Bhd",
+      "location": "Serdang, Petaling",
+      "description": "",
+      "position": "System Analyst Programmer",
+      "url": "https://www.gates.my/",
+      "startDate": "2017-01-15",
+      "endDate": "2017-04-28",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.",
+      "highlights": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
+        "consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim."
+      ]
+    },
+    {
+      "name": "Plisca (M) Sdn Bhd",
+      "location": "Ukay Perdana, Ampang",
+      "description": "",
+      "position": "Programmer",
+      "url": "https://plisca.com.my/",
+      "startDate": "2017-05-01",
+      "endDate": "2018-10-15",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.",
+      "highlights": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
+        "consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim."
+      ]
+    },
+    {
+      "name": "Petronas Research Sdn Bhd",
+      "location": "Bangi Institution Area, Kajang",
+      "description": "Contract with Kris Infotech Sdn Bhd",
+      "position": "Programmer",
+      "url": "https://plisca.com.my/",
+      "startDate": "2018-10-16",
+      "endDate": "2020-10-20",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.",
+      "highlights": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
+        "consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universiti Tun Hussein Onn Malaysia (UTHM)",
+      "url": "https://www.uthm.edu.my/",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2013-09-01",
+      "endDate": "2016-01-14",
+      "gpa": "3.40",
+      "courses": [
+        "BIT10103 - Software Engineering",
+        "BIT10203 - Introduction to Information Technology",
+        "BIT10303 - Computer Programming",
+        "BIT10403 - Introduction to Multimedia",
+        "BIT10503 - Cyber Entrepreneurship",
+        "BIT10703 - Data Structure and Algorithm",
+        "BIT10803 - Information Technology Skills",
+        "BIT11003 - Discrete Structure",
+        "BIT11603 - Statistics",
+        "BIT20103 - System Analysis and Design",
+        "BIT20203 - Graphic Programming",
+        "BIT20303 - Computer Architecture",
+        "BIT20403 - Operating System",
+        "BIT20502 - Creativity and Innovation",
+        "BIT20603 - Object - Oriented Programming",
+        "BIT20703 - Network and Data Communication",
+        "BIT20803 - Database System",
+        "BIT20903 - Artificial Intelligence",
+        "BIT21002 - Computer, Ethics and Social",
+        "BIT30303 - Decision Support System",
+        "BIT30403 - Project Management",
+        "BIT30503 - Enterprise Resource Planning",
+        "BIT30803 - Management Information System",
+        "BIT31003 - Information Technology Application",
+        "BIT33403 - Project Research Methodology",
+        "BIT33503 - Degree Project (Food Stall Evaluation System)",
+        "BIT33603 - Data Mining",
+        "BIT33803 - Java Programming",
+        "BIT40112 - Industrial Training",
+        "BPK10403 - Basic Accounting",
+        "BPK20502 - Principles of Management",
+        "BPK20802 - Entrepreneurship",
+        "BPK30702 - Environmental and Occupational Safety"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Second place in the EAGE Earth-Hack Hackaton",
+      "date": "2019-02-24",
+      "awarder": "EAGE",
+      "summary": "The EAGE Earth-Hack Hackathon, a two and a half day event will be held in Kuala Lumpur on 22nd – 24th February 2019, where software developers, engineers and geoscientists will spend intensive hours to hack, test and experiment with the latest advancements in machine learning algorithms against subsurface data such as seismic, logs, cores, to solve data mining, geological interpretation, and quantitative reservoir characterization problems."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "JQuery"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "Intermideate",
+      "keywords": [
+        "Python",
+        "Pytorch",
+        "Anaconda",
+        "CUDA"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English (Writing & Speaking)",
+      "fluency": "Excellent"
+    },
+    {
+      "language": "Malay (Writing & Speaking)",
+      "fluency": "Excellent (Native)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoor",
+      "keywords": [
+        "Hiking",
+        "Running",
+        "Cycling"
+      ]
+    },
+    {
+      "name": "Automotive",
+      "keywords": [
+        "Car",
+        "Motorcycle"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "sisMPK",
+      "description": "Maintaining and developing Harta Sewa module, covering all rental property for Kuantan Municipal Council.",
+      "highlights": [
+        "Using PHP with in-house MVC framework",
+        "Managed using SCRUM methodology"
+      ],
+      "keywords": [
+        "MVC",
+        "Pentaho",
+        "MySQL",
+        "PHP"
+      ],
+      "startDate": "2017-01-02",
+      "endDate": "2017-04-28",
+      "roles": [
+        "Junior Programmer"
+      ],
+      "entity": "Kuantan Municipal Council",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2020-10-20T20:36:00",
+    "theme": "elegant"
+  }
+}
