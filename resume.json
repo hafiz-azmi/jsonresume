@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Hafiz Azmi",
+    "name": "Tengku Muhamad Hafizuddin Tengku Azmi",
     "label": "Software Engineer",
     "image": "https://avatars2.githubusercontent.com/u/22949330?s=460&u=0775095da5fe8c43aa6ff9191bdcdb515b39d412&v=4",
     "email": "hafizuddintgazmi@gmail.com",
     "phone": "(+60) 14-511 5420",
     "url": "http://hafiz-azmi.github.io",
-    "summary": "Hafiz Azmi comes from Kuala Terengganu, Terengganu. He currenly lives in Seri Kembangan, Selangor.",
+    "summary": "Detail-oriented IT professional as a software engineer/prgrammer. Skilled at wide range of programming languages. Excellent written and oral communication skills; capable of explaining complex software issues in easy-to-understand terms.",
     "location": {
       "address": "Pangsapuri Orkid, Taman Bukit Serdang",
       "postalCode": "43300",
@@ -20,11 +20,6 @@
         "network": "Twitter",
         "username": "hafiz__azmi",
         "url": "https://twitter.com/Hafiz__Azmi"
-      },
-      {
-        "network": "Facebook",
-        "username": "hafizuddintgazmi",
-        "url": "https://www.facebook.com/hafizuddintgazmi"
       },
       {
         "network": "Linkedin",
@@ -40,6 +35,35 @@
   },
   "work": [
     {
+      "name": "Petronas Research Sdn Bhd",
+      "location": "Bangi Institution Area, Kajang",
+      "description": "Oil & Gas related research center",
+      "position": "Programmer",
+      "url": "https://www.petronas.com/",
+      "startDate": "2018-10-16",
+      "endDate": "",
+      "summary": "Exploration Technology, Group Research & Tecnology is reasearch centre focusing on Subsurface imaging and attributes.",
+      "highlights": [
+        "Develop machine learning model to predict the present of hydrocarbon using well logs data.",
+        "Setup and manages MATLAB license server."
+      ]
+    },
+    {
+      "name": "Plisca (M) Sdn Bhd",
+      "location": "Ukay Perdana, Ampang",
+      "description": "Global information system (GIS) and land survey company",
+      "position": "Programmer",
+      "url": "https://plisca.com.my/",
+      "startDate": "2017-05-01",
+      "endDate": "2018-10-15",
+      "summary": "Plisca provide GIS-IT total solution to various goverment agency including hardware supplies and ICT consultation.",
+      "highlights": [
+        "Customize open source application to suit stake holder requirements.",
+        "Configure linux Staging (LAMP stack) for web application development.",
+        "Conduct application training for targeted user."
+      ]
+    },
+    {
       "name": "GATES IT Solutions Sdn Bhd",
       "location": "Serdang, Petaling",
       "description": "",
@@ -47,41 +71,10 @@
       "url": "https://www.gates.my/",
       "startDate": "2017-01-15",
       "endDate": "2017-04-28",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.",
+      "summary": "Software house that serve goverment agency. Their service include developing accounting system and university managment system.",
       "highlights": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
-        "consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim."
-      ]
-    },
-    {
-      "name": "Plisca (M) Sdn Bhd",
-      "location": "Ukay Perdana, Ampang",
-      "description": "",
-      "position": "Programmer",
-      "url": "https://plisca.com.my/",
-      "startDate": "2017-05-01",
-      "endDate": "2018-10-15",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.",
-      "highlights": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
-        "consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim."
-      ]
-    },
-    {
-      "name": "Petronas Research Sdn Bhd",
-      "location": "Bangi Institution Area, Kajang",
-      "description": "Contract with Kris Infotech Sdn Bhd",
-      "position": "Programmer",
-      "url": "https://plisca.com.my/",
-      "startDate": "2018-10-16",
-      "endDate": "2020-10-20",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim. Nulla facilisi. Nam ultricies dapibus lorem sed bibendum. Nunc ut fringilla lectus. Vestibulum ut dignissim lacus. Fusce vehicula tempor bibendum. Duis et porta risus. Fusce facilisis lacinia lobortis. Etiam at posuere sapien. Etiam quis felis in dolor commodo convallis. Maecenas eu eleifend lorem.",
-      "highlights": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
-        "consectetur adipiscing elit. Quisque dui lectus, laoreet quis neque a, tempus tincidunt enim.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus tincidunt enim."
+        "Learn to comunicate with project stakeholder capture their requirements.",
+        "Learn project management by Practicing SCRUM methodology."
       ]
     }
   ],
@@ -137,6 +130,12 @@
       "date": "2019-02-24",
       "awarder": "EAGE",
       "summary": "The EAGE Earth-Hack Hackathon, a two and a half day event will be held in Kuala Lumpur on 22nd – 24th February 2019, where software developers, engineers and geoscientists will spend intensive hours to hack, test and experiment with the latest advancements in machine learning algorithms against subsurface data such as seismic, logs, cores, to solve data mining, geological interpretation, and quantitative reservoir characterization problems."
+    },
+    {
+      "title": "HCNA-HNTD",
+      "date": "2015-08-18",
+      "awarder": "Prestariang",
+      "summary": "Huawei Certified Network Associate – Huawei Network Technology and Device"
     }
   ],
   "skills": [
@@ -159,6 +158,17 @@
         "Pytorch",
         "Anaconda",
         "CUDA"
+      ]
+    },
+    {
+      "name": "System/IT Administration",
+      "level": "Beginner",
+      "keywords": [
+        "FLEXlm",
+        "Linux",
+        "Centos",
+        "License Server",
+        "HCNA-HNTD"
       ]
     }
   ],
@@ -191,6 +201,49 @@
   ],
   "projects": [
     {
+      "name": "MPM ABCO",
+      "description": "Developing and maintaining code for MPM (Malaysia Petroleum Management) ABCO (Automated Behind Casing Opportunity) project that is machine learning project that able to predict the presence of Hydrocarbon using input from well logs. Mainly involve with data preprocessing which is clean up the well log data by removing outliers, filling null data and normalizing the dataset",
+      "highlights": [
+        "uses Python as the programming language and Pytorch python library for machine learning purpose"
+      ],
+      "keywords": [
+        "Python",
+        "Pytorch",
+        "CUDA",
+        "Pandas"
+      ],
+      "startDate": "2018-10-16",
+      "endDate": "",
+      "roles": [
+        "Data Scientist"
+      ],
+      "entity": "Petronas Research Sdn Bhd",
+      "type": "Machine Learning"
+    },
+    {
+      "name": "GIOS",
+      "description": "Develop and maintain the GIOS (Geospatial Online Image Service) Server Administration Service that acts as an administration system for internal staff. GIOS consist of two parts, GIOS Image Portal (public) and GIOS Server Administration Service (internal) which can be used by surveyors to view data such orthophoto, scanned topography image, satellite image and synthetic aperture radar (SAR) image before buying them from JUPEM.",
+      "highlights": [
+        "using Python programming and Django 1.6.11 as its framework",
+        "use PostgreSQL as its relational database",
+        "project is a customization of Geonode, web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI)",
+        "uses GeoServer for server for sharing geospatial data"
+      ],
+      "keywords": [
+        "python",
+        "Django",
+        "Geonode",
+        "Postgresql"
+      ],
+      "startDate": "2017-05-01",
+      "endDate": "2017-10-31",
+      "roles": [
+        "GIS Programmer"
+      ],
+      "entity": "Plisca (M) Sdn Bhd",
+      "type": "GIS Application"
+    },
+    {
       "name": "sisMPK",
       "description": "Maintaining and developing Harta Sewa module, covering all rental property for Kuantan Municipal Council.",
       "highlights": [
@@ -201,14 +254,15 @@
         "MVC",
         "Pentaho",
         "MySQL",
-        "PHP"
+        "PHP",
+        "SCRUM"
       ],
       "startDate": "2017-01-02",
       "endDate": "2017-04-28",
       "roles": [
         "Junior Programmer"
       ],
-      "entity": "Kuantan Municipal Council",
+      "entity": "GATES IT Solutions Sdn Bhd",
       "type": "application"
     }
   ],
