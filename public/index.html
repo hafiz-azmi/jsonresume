@@ -1,556 +1,706 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Tengku Muhamad Hafizuddin Tengku Azmi</title>
-    <meta name="description" content="Detail-oriented IT professional as a software engineer/prgrammer. Skilled at wide range of programming languages. Excellent written and oral communication skills; capable of explaining complex software issues in easy-to-understand terms." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
-    <style>:root {
-  /* Colors */
-  --primaryColor: #212529;
-  --secondaryColor: #95a5a6;
-  --accentColor: #f1c40f;
-  --linkColor: #2ecc71;
-  --mutedColor: #f4f6f6;
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Tengku Muhamad Hafizuddin Tengku Azmi</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
-  /* Typography */
-  --ratio: 1.25;
-  --scale0: 1rem;
-  --scale1: calc(var(--scale0) * var(--ratio));
-  --scale2: calc(var(--scale1) * var(--ratio));
-  --scale3: calc(var(--scale2) * var(--ratio));
-  --scale4: calc(var(--scale3) * var(--ratio));
-  --scale5: calc(var(--scale4) * var(--ratio));
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
 }
 
-* {
-  box-sizing: border-box;
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
   margin: 0;
   padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
-
-html {
-  font-size: 14px;
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
 }
-
-body {
-  color: var(--primaryColor);
-  display: grid;
-  font: 1em/1.5 Lato, sans-serif;
-  gap: 2em;
-  grid-template-columns:
-    [full-start]
-    1fr
-    [main-start side-start]
-    minmax(min-content, 12em)
-    [side-end content-start]
-    minmax(min-content, 36em)
-    [main-end content-end]
-    1fr
-    [full-end];
-  grid-template-rows: auto [content] 0;
-  margin-bottom: 4em;
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
 }
-
-body::before {
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
   content: '';
-  grid-column: full;
-  grid-row: content;
+  display: block;
 }
 
-ol,
-ul {
-  padding-left: 1em;
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-li + li {
-  margin-top: 0.2em;
-}
-
-li::marker {
-  color: var(--mutedColor);
-}
-
-a {
-  color: var(--linkColor);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:focus,
-a:hover {
-  color: var(--accentColor);
-}
-
-h1,
-h2,
-h3,
-h5 {
-  font-weight: normal;
-}
-
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: var(--scale5);
-}
-
-h2 {
-  color: var(--secondaryColor);
-  font-size: var(--scale4);
-}
-
-h3 {
-  color: var(--accentColor);
-  font-size: var(--scale3);
-  grid-column: side;
-  margin-bottom: 1rem;
-}
-
-h4 {
-  font-size: var(--scale2);
-}
-
-h5 {
-  font-size: var(--scale1);
-}
-
-h6 {
-  font-size: var(--scale0);
-}
-
-p:not(:first-child) {
-  margin-top: 1em;
-}
-
-p:not(:last-child) {
-  margin-bottom: 1em;
-}
-
-blockquote {
-  border-left: 0.2em solid var(--mutedColor);
-  padding-left: 1em;
-}
-
-cite {
-  color: var(--secondaryColor);
-  font-style: inherit;
-}
-
-cite::before {
-  content: '— ';
-}
-
-header {
-  background: var(--mutedColor);
-  display: inherit;
-  gap: inherit;
-  grid-column: full;
-  grid-template-columns: inherit;
-  padding: 4em 0;
-  row-gap: 0;
-}
-
-header > *,
-section {
-  grid-column: main;
-}
-
-.stack {
-  display: grid;
-  gap: 1.5em;
-}
-
-.grid-list {
-  display: grid;
-  gap: 1em;
-}
-
-.spaced-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.spaced-list:first-child::before {
-  border-bottom: 1px solid var(--mutedColor);
-  content: '';
-  flex-grow: 1;
-  margin: 0 1em;
-  order: 1;
-}
-
-.spaced-list > :nth-child(2) {
-  order: 2;
-}
-
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
   list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
   padding: 0;
 }
 
-.tag-list > li {
-  background: var(--mutedColor);
-  margin: 0 0.2em 0.2em 0;
-  padding: 0.2em 0.6em;
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
 }
 
-@media (min-width: 48em) {
-  h3 {
-    text-align: right;
-    margin-bottom: inherit;
-  }
-
-  header > *,
-  section {
-    grid-column: content;
-  }
-
-  section {
-    display: contents;
-  }
-
-  .grid-list {
-    grid-template-columns: 1fr 1fr;
-  }
+.contact-item{
+  width: 100%;
+  float: left;
 }
-</style>
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
   </head>
   <body>
-      <header>
-          <h1>Tengku Muhamad Hafizuddin Tengku Azmi</h1>
-          <h2>Software Engineer</h2>
-      </header>
-      <section id="contact">
-        <h3>Contact</h3>
-        <div class="grid-list">
-            <div>
-              <h6>Email</h6>
-              <a href="mailto:hafizuddintgazmi@gmail.com">hafizuddintgazmi@gmail.com</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;avatars2.githubusercontent.com&#x2F;u&#x2F;22949330" alt="avatar">
             </div>
-            <div>
-              <h6>Phone</h6>
-              (+60) 14-511 5420
+            <div id="text-header" >
+              <h1>Tengku Muhamad Hafizuddin Tengku Azmi<br><span>Software Engineer</span></h1>
             </div>
-            <div>
-              <h6>Website</h6>
-              <a href="http://hafiz-azmi.github.io">http://hafiz-azmi.github.io</a>
-            </div>
+          </div>
         </div>
-      </section>
-        <section id="about">
-          <h3>About</h3>
-          <div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
             <p>Detail-oriented IT professional as a software engineer/prgrammer. Skilled at wide range of programming languages. Excellent written and oral communication skills; capable of explaining complex software issues in easy-to-understand terms.</p>
           </div>
-        </section>
-        <section id="profiles">
-          <h3>Profiles</h3>
-          <div class="grid-list">
-              <div>
-                  <h6>Twitter</h6>
-                    <a href="https://twitter.com/Hafiz__Azmi">hafiz__azmi</a>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Petronas Research Sdn Bhd
+                      <div class="pull-right">
+                        Bangi Institution Area, Kajang
+                      </div>
+                    </div>
+                    <div class="description">
+                      Oil &amp; Gas related research center
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.petronas.com&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.petronas.com&#x2F;</a>
+                    </div>
+                    <div class="year">October 2018 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Programmer</div>
+                    <div class="description">
+                      Exploration Technology, Group Research & Tecnology is reasearch centre focusing on Subsurface imaging and attributes.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Develop machine learning model to predict the present of hydrocarbon using well logs data.</li>
+                        <li class="list-group-item">Setup and manages MATLAB license server.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>
-                  <h6>Linkedin</h6>
-                    <a href="https://www.linkedin.com/in/hafiz-azmi/">hafiz-azmi</a>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Plisca (M) Sdn Bhd
+                      <div class="pull-right">
+                        Ukay Perdana, Ampang
+                      </div>
+                    </div>
+                    <div class="description">
+                      Global information system (GIS) and land survey company
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;plisca.com.my&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;plisca.com.my&#x2F;</a>
+                    </div>
+                    <div class="year">May 2017 – October 2018</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Programmer</div>
+                    <div class="description">
+                      Plisca provide GIS-IT total solution to various goverment agency including hardware supplies and ICT consultation.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Customize open source application to suit stake holder requirements.</li>
+                        <li class="list-group-item">Configure linux Staging (LAMP stack) for web application development.</li>
+                        <li class="list-group-item">Conduct application training for targeted user.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>
-                  <h6>Github</h6>
-                    <a href="https://github.com/hafiz-azmi">hafiz-azmi</a>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      GATES IT Solutions Sdn Bhd
+                      <div class="pull-right">
+                        Serdang, Petaling
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.gates.my&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.gates.my&#x2F;</a>
+                    </div>
+                    <div class="year">January 2017 – April 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">System Analyst Programmer</div>
+                    <div class="description">
+                      Software house that serve goverment agency. Their service include developing accounting system and university managment system.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Learn to comunicate with project stakeholder capture their requirements.</li>
+                        <li class="list-group-item">Learn project management by Practicing SCRUM methodology.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
           </div>
-        </section>
+          <!-- AWARDS -->
+          <div class="box">
+            <h2><i class="fas fa-certificate ico"></i> Awards</h2>
+            <ul id="awards" class="clearfix">
+              <li>
+                <div class="year pull-left">February  2019</div>
+                <div class="description pull-right">
+                  <h3>EAGE</h3>
+                  <p><i class="fas fa-trophy ico"></i> Second place in the EAGE Earth-Hack Hackaton</p>
+                  <p>The EAGE Earth-Hack Hackathon, a two and a half day event will be held in Kuala Lumpur on 22nd – 24th February 2019, where software developers, engineers and geoscientists will spend intensive hours to hack, test and experiment with the latest advancements in machine learning algorithms against subsurface data such as seismic, logs, cores, to solve data mining, geological interpretation, and quantitative reservoir characterization problems.</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">August  2015</div>
+                <div class="description pull-right">
+                  <h3>Prestariang</h3>
+                  <p><i class="fas fa-trophy ico"></i> HCNA-HNTD</p>
+                  <p>Huawei Certified Network Associate – Huawei Network Technology and Device</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- PROJECTS -->
+          <div class="box">
+            <h2><i class= "fas fa-code-branch ico"></i> Projects</h2>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <span style="font-weight:bold">MPM ABCO</span>: Developing and maintaining code for MPM (Malaysia Petroleum Management) ABCO (Automated Behind Casing Opportunity) project that is machine learning project that able to predict the presence of Hydrocarbon using input from well logs. Mainly involve with data preprocessing which is clean up the well log data by removing outliers, filling null data and normalizing the dataset
+              </li>
+              <li class="list-group-item">
+                <span style="font-weight:bold">GIOS</span>: Develop and maintain the GIOS (Geospatial Online Image Service) Server Administration Service that acts as an administration system for internal staff. GIOS consist of two parts, GIOS Image Portal (public) and GIOS Server Administration Service (internal) which can be used by surveyors to view data such orthophoto, scanned topography image, satellite image and synthetic aperture radar (SAR) image before buying them from JUPEM.
+              </li>
+              <li class="list-group-item">
+                <span style="font-weight:bold">sisMPK</span>: Maintaining and developing Harta Sewa module, covering all rental property for Kuantan Municipal Council.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">Pangsapuri Orkid, Taman Bukit Serdang</div>
+              <div class="title  pull-right">Seri Kembangan, Selangor 43300 MY</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">(+60) 14-511 5420</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:hafizuddintgazmi@gmail.com" target="_blank">hafizuddintgazmi@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-globe fa-fw"></span></div>
+              <div class="title only pull-right"><a href="http:&#x2F;&#x2F;hafiz-azmi.github.io" target="_blank">http:&#x2F;&#x2F;hafiz-azmi.github.io</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;Hafiz__Azmi" target="_blank">hafiz__azmi</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">Linkedin</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;hafiz-azmi&#x2F;" target="_blank">hafiz-azmi</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">Github</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;hafiz-azmi" target="_blank">hafiz-azmi</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2013 2016</div>
+                <div class="description pull-right">
+                  <h3>Universiti Tun Hussein Onn Malaysia (UTHM)</h3>
+                  <div class="where"></div>
+                  <div class="address">
+                    <a href="https:&#x2F;&#x2F;www.uthm.edu.my&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.uthm.edu.my&#x2F;</a>
+                  </div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Bachelor</p>
+                  <p>Information Technology</p>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">BIT10103 - Software Engineering</li>
+                      <li class="list-group-item">BIT10203 - Introduction to Information Technology</li>
+                      <li class="list-group-item">BIT10303 - Computer Programming</li>
+                      <li class="list-group-item">BIT10403 - Introduction to Multimedia</li>
+                      <li class="list-group-item">BIT10503 - Cyber Entrepreneurship</li>
+                      <li class="list-group-item">BIT10703 - Data Structure and Algorithm</li>
+                      <li class="list-group-item">BIT10803 - Information Technology Skills</li>
+                      <li class="list-group-item">BIT11003 - Discrete Structure</li>
+                      <li class="list-group-item">BIT11603 - Statistics</li>
+                      <li class="list-group-item">BIT20103 - System Analysis and Design</li>
+                      <li class="list-group-item">BIT20203 - Graphic Programming</li>
+                      <li class="list-group-item">BIT20303 - Computer Architecture</li>
+                      <li class="list-group-item">BIT20403 - Operating System</li>
+                      <li class="list-group-item">BIT20502 - Creativity and Innovation</li>
+                      <li class="list-group-item">BIT20603 - Object - Oriented Programming</li>
+                      <li class="list-group-item">BIT20703 - Network and Data Communication</li>
+                      <li class="list-group-item">BIT20803 - Database System</li>
+                      <li class="list-group-item">BIT20903 - Artificial Intelligence</li>
+                      <li class="list-group-item">BIT21002 - Computer, Ethics and Social</li>
+                      <li class="list-group-item">BIT30303 - Decision Support System</li>
+                      <li class="list-group-item">BIT30403 - Project Management</li>
+                      <li class="list-group-item">BIT30503 - Enterprise Resource Planning</li>
+                      <li class="list-group-item">BIT30803 - Management Information System</li>
+                      <li class="list-group-item">BIT31003 - Information Technology Application</li>
+                      <li class="list-group-item">BIT33403 - Project Research Methodology</li>
+                      <li class="list-group-item">BIT33503 - Degree Project (Food Stall Evaluation System)</li>
+                      <li class="list-group-item">BIT33603 - Data Mining</li>
+                      <li class="list-group-item">BIT33803 - Java Programming</li>
+                      <li class="list-group-item">BIT40112 - Industrial Training</li>
+                      <li class="list-group-item">BPK10403 - Basic Accounting</li>
+                      <li class="list-group-item">BPK20502 - Principles of Management</li>
+                      <li class="list-group-item">BPK20802 - Entrepreneurship</li>
+                      <li class="list-group-item">BPK30702 - Environmental and Occupational Safety</li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Web Development
+                  <span class="skill-level">Master</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">HTML</span>
+                <span class= "skill badge">CSS</span>
+                <span class= "skill badge">Javascript</span>
+                <span class= "skill badge">PHP</span>
+                <span class= "skill badge">JQuery</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Data Science
+                  <span class="skill-level">Intermideate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Python</span>
+                <span class= "skill badge">Pytorch</span>
+                <span class= "skill badge">Anaconda</span>
+                <span class= "skill badge">CUDA</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  System&#x2F;IT Administration
+                  <span class="skill-level">Beginner</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">FLEXlm</span>
+                <span class= "skill badge">Linux</span>
+                <span class= "skill badge">Centos</span>
+                <span class= "skill badge">License Server</span>
+                <span class= "skill badge">HCNA-HNTD</span>
+              </div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Outdoor
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Hiking</span>
+                <span class= "interest badge">Running</span>
+                <span class= "interest badge">Cycling</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Automotive
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Car</span>
+                <span class= "interest badge">Motorcycle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <section id="work">
-        <h3>Work</h3>
-        <div class="stack">
-            <article>
-              <div class="spaced-list">
-                <h4>Petronas Research Sdn Bhd</h4>
-                <span>
-                  <time datetime="2018-10-16">Oct 2018</time> –
-                  Present
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>Programmer</strong>
-                  <a href="https://www.petronas.com/">https://www.petronas.com/</a>
-              </div>
-                <p>Exploration Technology, Group Research &amp; Tecnology is reasearch centre focusing on Subsurface imaging and attributes.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Develop machine learning model to predict the present of hydrocarbon using well logs data.</li>
-                    <li>Setup and manages MATLAB license server.</li>
-                </ul>
-            </article>
-            <article>
-              <div class="spaced-list">
-                <h4>Plisca (M) Sdn Bhd</h4>
-                <span>
-                  <time datetime="2017-05-01">May 2017</time> –
-                  <time datetime="2018-10-15">Oct 2018</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>Programmer</strong>
-                  <a href="https://plisca.com.my/">https://plisca.com.my/</a>
-              </div>
-                <p>Plisca provide GIS-IT total solution to various goverment agency including hardware supplies and ICT consultation.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Customize open source application to suit stake holder requirements.</li>
-                    <li>Configure linux Staging (LAMP stack) for web application development.</li>
-                    <li>Conduct application training for targeted user.</li>
-                </ul>
-            </article>
-            <article>
-              <div class="spaced-list">
-                <h4>GATES IT Solutions Sdn Bhd</h4>
-                <span>
-                  <time datetime="2017-01-15">Jan 2017</time> –
-                  <time datetime="2017-04-28">Apr 2017</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>System Analyst Programmer</strong>
-                  <a href="https://www.gates.my/">https://www.gates.my/</a>
-              </div>
-                <p>Software house that serve goverment agency. Their service include developing accounting system and university managment system.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Learn to comunicate with project stakeholder capture their requirements.</li>
-                    <li>Learn project management by Practicing SCRUM methodology.</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="education">
-        <h3>Education</h3>
-        <div class="stack">
-            <article>
-              <div class="spaced-list">
-                <h4>Universiti Tun Hussein Onn Malaysia (UTHM)</h4>
-                <span>
-                  <time datetime="2013-09-01">Sep 2013</time> –
-                  <time datetime="2016-01-14">Jan 2016</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>Information Technology</strong>
-                  <a href="https://www.uthm.edu.my/">https://www.uthm.edu.my/</a>
-              </div>
-                <p>Bachelor</p>
-                <h5>Courses</h5>
-                <ul>
-                    <li>BIT10103 - Software Engineering</li>
-                    <li>BIT10203 - Introduction to Information Technology</li>
-                    <li>BIT10303 - Computer Programming</li>
-                    <li>BIT10403 - Introduction to Multimedia</li>
-                    <li>BIT10503 - Cyber Entrepreneurship</li>
-                    <li>BIT10703 - Data Structure and Algorithm</li>
-                    <li>BIT10803 - Information Technology Skills</li>
-                    <li>BIT11003 - Discrete Structure</li>
-                    <li>BIT11603 - Statistics</li>
-                    <li>BIT20103 - System Analysis and Design</li>
-                    <li>BIT20203 - Graphic Programming</li>
-                    <li>BIT20303 - Computer Architecture</li>
-                    <li>BIT20403 - Operating System</li>
-                    <li>BIT20502 - Creativity and Innovation</li>
-                    <li>BIT20603 - Object - Oriented Programming</li>
-                    <li>BIT20703 - Network and Data Communication</li>
-                    <li>BIT20803 - Database System</li>
-                    <li>BIT20903 - Artificial Intelligence</li>
-                    <li>BIT21002 - Computer, Ethics and Social</li>
-                    <li>BIT30303 - Decision Support System</li>
-                    <li>BIT30403 - Project Management</li>
-                    <li>BIT30503 - Enterprise Resource Planning</li>
-                    <li>BIT30803 - Management Information System</li>
-                    <li>BIT31003 - Information Technology Application</li>
-                    <li>BIT33403 - Project Research Methodology</li>
-                    <li>BIT33503 - Degree Project (Food Stall Evaluation System)</li>
-                    <li>BIT33603 - Data Mining</li>
-                    <li>BIT33803 - Java Programming</li>
-                    <li>BIT40112 - Industrial Training</li>
-                    <li>BPK10403 - Basic Accounting</li>
-                    <li>BPK20502 - Principles of Management</li>
-                    <li>BPK20802 - Entrepreneurship</li>
-                    <li>BPK30702 - Environmental and Occupational Safety</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="projects">
-        <h3>Projects</h3>
-        <div class="stack">
-            <article>
-              <div class="spaced-list">
-                <h4>MPM ABCO</h4>
-                <span>
-                  <time datetime="2018-10-16">Oct 2018</time> –
-                  Present
-                </span>
-              </div>
-              <div class="spaced-list">
-                <span>
-                  <strong>Data Scientist</strong>
-                    at <strong>Petronas Research Sdn Bhd</strong>
-                </span>
-              </div>
-                <p>Developing and maintaining code for MPM (Malaysia Petroleum Management) ABCO (Automated Behind Casing Opportunity) project that is machine learning project that able to predict the presence of Hydrocarbon using input from well logs. Mainly involve with data preprocessing which is clean up the well log data by removing outliers, filling null data and normalizing the dataset</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>uses Python as the programming language and Pytorch python library for machine learning purpose</li>
-                </ul>
-            </article>
-            <article>
-              <div class="spaced-list">
-                <h4>GIOS</h4>
-                <span>
-                  <time datetime="2017-05-01">May 2017</time> –
-                  <time datetime="2017-10-31">Oct 2017</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                <span>
-                  <strong>GIS Programmer</strong>
-                    at <strong>Plisca (M) Sdn Bhd</strong>
-                </span>
-              </div>
-                <p>Develop and maintain the GIOS (Geospatial Online Image Service) Server Administration Service that acts as an administration system for internal staff. GIOS consist of two parts, GIOS Image Portal (public) and GIOS Server Administration Service (internal) which can be used by surveyors to view data such orthophoto, scanned topography image, satellite image and synthetic aperture radar (SAR) image before buying them from JUPEM.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>using Python programming and Django 1.6.11 as its framework</li>
-                    <li>use PostgreSQL as its relational database</li>
-                    <li>project is a customization of Geonode, web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI)</li>
-                    <li>uses GeoServer for server for sharing geospatial data</li>
-                </ul>
-            </article>
-            <article>
-              <div class="spaced-list">
-                <h4>sisMPK</h4>
-                <span>
-                  <time datetime="2017-01-02">Jan 2017</time> –
-                  <time datetime="2017-04-28">Apr 2017</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                <span>
-                  <strong>Junior Programmer</strong>
-                    at <strong>GATES IT Solutions Sdn Bhd</strong>
-                </span>
-              </div>
-                <p>Maintaining and developing Harta Sewa module, covering all rental property for Kuantan Municipal Council.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Using PHP with in-house MVC framework</li>
-                    <li>Managed using SCRUM methodology</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="awards">
-        <h3>Awards</h3>
-        <div class="stack">
-            <article>
-              <div class="spaced-list">
-                <h4>Second place in the EAGE Earth-Hack Hackaton</h4>
-                  <time datetime="2019-02-24">Feb 2019</time>
-              </div>
-              <div class="spaced-list">
-                  <div>
-                    Awarded by <strong>EAGE</strong>
-                  </div>
-              </div>
-                <p>The EAGE Earth-Hack Hackathon, a two and a half day event will be held in Kuala Lumpur on 22nd – 24th February 2019, where software developers, engineers and geoscientists will spend intensive hours to hack, test and experiment with the latest advancements in machine learning algorithms against subsurface data such as seismic, logs, cores, to solve data mining, geological interpretation, and quantitative reservoir characterization problems.</p>
-            </article>
-            <article>
-              <div class="spaced-list">
-                <h4>HCNA-HNTD</h4>
-                  <time datetime="2015-08-18">Aug 2015</time>
-              </div>
-              <div class="spaced-list">
-                  <div>
-                    Awarded by <strong>Prestariang</strong>
-                  </div>
-              </div>
-                <p>Huawei Certified Network Associate – Huawei Network Technology and Device</p>
-            </article>
-        </div>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-            <div>
-                <h5>Web Development</h5>
-                <ul class="tag-list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>PHP</li>
-                    <li>JQuery</li>
-                </ul>
-            </div>
-            <div>
-                <h5>Data Science</h5>
-                <ul class="tag-list">
-                    <li>Python</li>
-                    <li>Pytorch</li>
-                    <li>Anaconda</li>
-                    <li>CUDA</li>
-                </ul>
-            </div>
-            <div>
-                <h5>System/IT Administration</h5>
-                <ul class="tag-list">
-                    <li>FLEXlm</li>
-                    <li>Linux</li>
-                    <li>Centos</li>
-                    <li>License Server</li>
-                    <li>HCNA-HNTD</li>
-                </ul>
-            </div>
-        </div>
-      </section>
-      <section id="languages">
-        <h3>Languages</h3>
-        <div class="grid-list">
-            <div>
-                <h6>English (Writing &amp; Speaking)</h6>
-              Excellent
-            </div>
-            <div>
-                <h6>Malay (Writing &amp; Speaking)</h6>
-              Excellent (Native)
-            </div>
-        </div>
-      </section>
-      <section id="interests">
-        <h3>Interests</h3>
-        <div class="grid-list">
-            <div>
-                <h5>Outdoor</h5>
-                <ul class="tag-list">
-                    <li>Hiking</li>
-                    <li>Running</li>
-                    <li>Cycling</li>
-                </ul>
-            </div>
-            <div>
-                <h5>Automotive</h5>
-                <ul class="tag-list">
-                    <li>Car</li>
-                    <li>Motorcycle</li>
-                </ul>
-            </div>
-        </div>
-      </section>
   </body>
 </html>

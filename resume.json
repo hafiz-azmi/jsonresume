@@ -3,7 +3,7 @@
   "basics": {
     "name": "Tengku Muhamad Hafizuddin Tengku Azmi",
     "label": "Software Engineer",
-    "image": "https://avatars2.githubusercontent.com/u/22949330?s=460&u=0775095da5fe8c43aa6ff9191bdcdb515b39d412&v=4",
+    "image": "https://avatars2.githubusercontent.com/u/22949330",
     "email": "hafizuddintgazmi@gmail.com",
     "phone": "(+60) 14-511 5420",
     "url": "http://hafiz-azmi.github.io",
@@ -41,7 +41,6 @@
       "position": "Programmer",
       "url": "https://www.petronas.com/",
       "startDate": "2018-10-16",
-      "endDate": "",
       "summary": "Exploration Technology, Group Research & Tecnology is reasearch centre focusing on Subsurface imaging and attributes.",
       "highlights": [
         "Develop machine learning model to predict the present of hydrocarbon using well logs data.",
@@ -213,7 +212,6 @@
         "Pandas"
       ],
       "startDate": "2018-10-16",
-      "endDate": "",
       "roles": [
         "Data Scientist"
       ],
